@@ -1,0 +1,16 @@
+open anaconda prompt terminal
+install gdal in conda instance
+conda install hirise -c conda-forge gdal=3.0
+conda activate hirise
+conda install python
+conda install pandas
+conda install numpy
+conda install matplotlib
+
+run hirise
+
+Open anaconda navigator
+launch vscode
+select hirise conda interpreter instance
+run code by cell if separated by #%% blocks
+
