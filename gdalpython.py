@@ -5,11 +5,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
 from PIL import Image
-import time
 import datetime
 
-date_today = datetime.datetime.now() # adding the computer date to the filename when function runs
-datestr = date_today.strftime('%m%d%Y') # format date
+date_today = datetime.datetime.now() #adding the computer date to the filename when function runs
+datestr = date_today.strftime('%m%d%Y') #format date
 
 """read DTM data from header, save file address. User needs to edit folder,fn and later pixsize variables depending on the DTM they are using. Take ZT and Horn slopes."""
 
@@ -260,7 +259,7 @@ Hornslope(folder,data_nan,2,pixsize) #run Horn slope
 ###################################
 
 def curvature(folder,data_nan,scale,pixsize):
-    """Take curvature.
+    """Take curvature of ZT slope array.
         Inputs:
             :folder(string): directory address for DTM file
             :data_nan(array): array of DTM with nan values
@@ -357,7 +356,7 @@ def getmode(folder,scale,pixsize):
     print(f"mode for {scale*2}m Z-T slope is:{stats.mode(np.round(slopedeg,1),axis=None,nan_policy='omit')}")
 
 def takerow(folder,scale,pixsize):
-    """Take curvature.
+    """Take single row of elevation and ZT slope data and graphs it.
         Inputs:
             :folder(string): directory address for DTM file
             :scale(integer): step size for rolling arrays for slope calculation
