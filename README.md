@@ -13,7 +13,7 @@ After the Horn Slope function, the last part of the python file are functions to
 
 Installation
 ------------
-Project was run in Windows 10 using Anaconda Navigator and Visual Studio Code. Any user needs to download a gdal python instance. Look at howtogetgdalinstance.txt to see how to replicate this. Will need to import sys, sys.path,osgeo, numpy, matplotlib.pyplot, scipy, PIL, time, and  datetime.
+Project was run in Windows 10 using Anaconda Navigator and Visual Studio Code in Python 3.8.13 . Any user needs to download a gdal python instance. Look at howtogetgdalinstance.txt to see how to replicate this. Will need to import sys, sys.path,osgeo, numpy, matplotlib.pyplot, scipy, PIL, time, and  datetime.
 
 Contribute
 ----------
