@@ -1,3 +1,5 @@
+#written by olivia jones at U of Arizona for HiRISE research project 05.12.2023
+#advised by Dr. Shane Byrne and Dr. Sarah Sutton
 import sys
 sys.path
 from osgeo import gdal
